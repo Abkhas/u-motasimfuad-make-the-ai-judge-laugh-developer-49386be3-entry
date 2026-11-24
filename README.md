@@ -19,3 +19,12 @@ really happened — the review chain was one tired person rubber-stamping
 their own 2am code in one-minute steps. No worn excuse is quoted
 ("it worked on my machine" is nowhere in it); the timestamps do the
 comedy, escalating 2am → 2:05am → 2:06am, and every word earns its place.
+
+What makes it land as an excuse rather than just a joke is that it
+confesses instead of deflecting: the developer is not blaming the
+framework, the deploy, or a teammate — the whole review chain was one
+person, and the bug survived because the author, the reviewer, and the
+approver were all the same tired engineer within six minutes. That is
+why it reads true to anyone who has ever shipped code at 2am: the
+failure is not mysterious, it is procedural, and the timestamps are the
+evidence.
