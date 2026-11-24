@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
 """Make the AI Judge Laugh: Developer Excuses.
 
-Writes one funny single-line excuse (89 characters) to /output/entry.txt:
+Writes one funny single-line excuse (75 characters) to /output/entry.txt:
 a developer's excuse for code breaking in production. The twist is the
-review chain: the code was written, reviewed, and approved by the same
-person, minutes apart, at 2am.
+load-bearing bug: the only thing holding production together was the
+bug itself, and removing it is what broke everything.
 """
 import os
 
-LINE = (
-    "The bug was in the code I wrote at 2am, reviewed at 2:05am, "
-    "and approved by me at 2:06am."
-)
+LINE = "I didn't break production \u2014 I removed the bug that was holding it together."
 
 
 def main() -> None:
